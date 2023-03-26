@@ -10,15 +10,12 @@
  
    <body>
      <h3>ストップウォッチ</h3>
- 
- <!-- ここに記述していきましょう！ -->
-     <div>
-       
+     <div id="stop-watch" class="reset-number">00:00:00:00</div>
+     <div class="button-container">
+       <button class="start-button" onclick="startCountEvent()">スタート</button>
+       <button class="stop-button" onclick=stopCountEvent();>ストップ</button>
+       <button class="reset-button" onclick=resetCountEvent();>リセット</button>
      </div>
-     <button class="start-button">スタート</button>
-     <button class="stop-button">ストップ</button>
-     <button class="reset-button">リセット</button>
-
      <script src="main.js"></script>
    </body>
-  </html>
+ </html>

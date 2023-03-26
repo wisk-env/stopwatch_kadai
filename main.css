@@ -2,3 +2,12 @@ button {
   font-weight: 700;
   padding: 10px 20px;
 }
+
+#stop-watch {
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.button-container {
+  margin-top: 20px;
+}
